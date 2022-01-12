@@ -26,15 +26,15 @@
             </ToolBar>
             <ToolBar Margin="5" Padding="5">
                 <Button Click="Button_Click">
-                    <Image Source="Data/iconBold.png" />
+                    <Image Source="Data/Bold.png" />
                 </Button>
                 <Separator/>
                 <Button Click="Button_Click_1">
-                    <Image Source="Data/iconItalic.png"/>
+                    <Image Source="Data/Italic.png"/>
                 </Button>
                 <Separator/>
                 <Button Click="Button_Click_2">
-                    <Image Source="Data/iconUnderline.png"/>
+                    <Image Source="Data/Underline.png"/>
                 </Button>
                 <Separator/>
             </ToolBar>
