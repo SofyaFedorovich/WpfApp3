@@ -107,5 +107,74 @@ namespace WpfApp3
                 }
             }
         }
+        //private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    string fontName = ((sender as ComboBox).SelectedItem as TextBlock).Text;
+        //    if (textBox != null)
+        //    {
+        //        textBox.FontFamily = new FontFamily(fontName);
+        //    }
+        //}
+
+        //private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        //{
+        //    int fontSize = Convert.ToInt32(((sender as ComboBox).SelectedItem as TextBlock).Text);
+        //    if (textBox != null)
+        //    {
+        //        textBox.FontSize = fontSize;
+        //    }
+        //}
+
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (textBox.FontWeight != FontWeights.Bold)
+        //    {
+        //        textBox.FontWeight = FontWeights.Bold;
+        //    }
+        //    else
+        //    {
+        //        textBox.FontWeight = FontWeights.Normal;
+        //    }
+        //}
+
+        //private void Button_Click_1(object sender, RoutedEventArgs e)
+        //{
+        //    if (textBox.FontStyle != FontStyles.Italic)
+        //    {
+        //        textBox.FontStyle = FontStyles.Italic;
+        //    }
+        //    else
+        //    {
+        //        textBox.FontStyle = FontStyles.Normal;
+        //    }
+        //}
+
+        //private void Button_Click_2(object sender, RoutedEventArgs e)
+        //{
+        //    if (textBox.TextDecorations != TextDecorations.Underline)
+        //    {
+        //        textBox.TextDecorations = TextDecorations.Underline;
+        //    }
+        //    else
+        //    {
+        //        textBox.TextDecorations = null;
+        //    }
+        //}
+
+        //private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        //{
+        //    if (textBox != null)
+        //    {
+        //        textBox.Foreground = Brushes.Black;
+        //    }
+        //}
+
+        //private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        //{
+        //    if (textBox != null)
+        //    {
+        //        textBox.Foreground = Brushes.Red;
+        //    }
+        //}
     }
 }
